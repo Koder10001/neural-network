@@ -49,6 +49,4 @@ let weights = [           // 3 nodes in 1 layer
 
 let biases = [2.0,3.0,0.5]  // 3 bias for 3 nodes
 
-for( let input of inputs){
-    console.log(fn.plus2Matrix(fn.dot(weights,input), biases));
-}
+console.log(fn.dotBatch(weights,inputs));

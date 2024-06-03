@@ -29,3 +29,13 @@ export function plus2Matrix(arr1,arr2){
     return result;
 
 }
+
+export function dotBatch(weights, inputs){
+    let result = [];
+    if(weights[0].length == inputs[0].length){
+        for(let input of inputs){
+            result.push(dot(weights,input));
+        }
+    }
+    return result;
+}
