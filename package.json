@@ -1,0 +1,21 @@
+{
+  "name": "neural-network",
+  "module": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.4.0",
+    "@types/bun": "latest",
+    "eslint": "9.x",
+    "globals": "^15.3.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "run": "bun run index.js"
+  },
+  "dependencies": {
+    "@types/node": "^20.13.0",
+    "png-js": "^1.0.0"
+  }
+}
