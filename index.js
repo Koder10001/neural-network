@@ -8,7 +8,7 @@ const path = require("path");
 import png from "png-js";
 let imgPath = "./training/";
 import * as fn from "./function.js"
-import { waitForDebugger } from "inspector";
+
 
 
 
@@ -50,3 +50,4 @@ let weights = [           // 3 nodes in 1 layer
 let biases = [2.0,3.0,0.5]  // 3 bias for 3 nodes
 
 console.log(fn.dotBatch(weights,inputs));
+

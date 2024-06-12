@@ -39,3 +39,15 @@ export function dotBatch(weights, inputs){
     }
     return result;
 }
+
+export function random(min, max){
+    let different = max*1.0 - min;
+    return (Math.random() * different + min);
+}
+
+// param: 
+// layers: number of hidden layers
+// numOfNodes : array of number of node for each layer
+export function initNetwork(layers, numOfNodes, randMin, randMax){
+
+}
